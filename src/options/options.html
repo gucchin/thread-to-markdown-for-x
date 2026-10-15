@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Thread to Markdown for X — Options</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <form id="settings">
+      <fieldset>
+        <legend>Posts to copy</legend>
+        <label><input type="radio" name="mode" value="author" /> Thread by the author only</label>
+        <label
+          ><input type="radio" name="mode" value="all" /> All posts from the main post on (including
+          replies by others)</label
+        >
+      </fieldset>
+
+      <fieldset>
+        <legend>Auto-scroll</legend>
+        <label
+          ><input type="checkbox" name="autoScroll" /> Scroll down to collect posts beyond the
+          screen (up to 100 posts / 30 seconds)</label
+        >
+      </fieldset>
+
+      <fieldset>
+        <legend>Image size</legend>
+        <label><input type="radio" name="resolution" value="large" /> Large</label>
+        <label><input type="radio" name="resolution" value="orig" /> Original</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Date and URL of each post</legend>
+        <label
+          ><input type="radio" name="metaFormat" value="comment" /> HTML comment (hidden in Obsidian
+          / Notion previews)</label
+        >
+        <label><input type="radio" name="metaFormat" value="line" /> Normal line</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Obsidian</legend>
+        <label><input type="checkbox" name="frontmatter" /> Add YAML frontmatter</label>
+      </fieldset>
+    </form>
+    <p id="status" role="status" aria-live="polite"></p>
+    <script src="options.js"></script>
+  </body>
+</html>

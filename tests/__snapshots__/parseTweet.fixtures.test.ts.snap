@@ -1,0 +1,292 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`image3.html: three images > matches the snapshot 1`] = `
+[
+  {
+    "author": {
+      "displayName": "User 1",
+      "handle": "user1",
+    },
+    "datetime": "2026-10-14T15:16:04.000Z",
+    "id": "1000000000000000001",
+    "isMain": true,
+    "media": [
+      {
+        "alt": "画像",
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/MEDIA0001?format=jpg&name=large",
+      },
+      {
+        "alt": "画像",
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/MEDIA0002?format=jpg&name=large",
+      },
+      {
+        "alt": "画像",
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/MEDIA0003?format=jpg&name=large",
+      },
+    ],
+    "quote": null,
+    "text": "lore
+ipsum dolor sit amet consectetur adipi
+elit s😆
+
+do eiusmod temporx😣
+ut labore et d
+magn
+aliqua u",
+    "truncated": false,
+    "url": "https://x.com/user1/status/1000000000000000001",
+  },
+  {
+    "author": {
+      "displayName": "User 1",
+      "handle": "user1",
+    },
+    "datetime": "2026-10-14T15:17:05.000Z",
+    "id": "1000000000000000002",
+    "isMain": false,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/1/img/VIDEO0001.jpg",
+      },
+      {
+        "alt": "画像",
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/MEDIA0004?format=jpg&name=large",
+      },
+    ],
+    "quote": null,
+    "text": "enim",
+    "truncated": false,
+    "url": "https://x.com/user1/status/1000000000000000002",
+  },
+  {
+    "author": {
+      "displayName": "User 1",
+      "handle": "user1",
+    },
+    "datetime": "2026-10-14T12:42:14.000Z",
+    "id": "1000000000000000003",
+    "isMain": false,
+    "media": [],
+    "quote": {
+      "author": {
+        "displayName": "User 3",
+        "handle": "user3",
+      },
+      "datetime": "2026-10-09T06:24:51.000Z",
+      "id": "1000000000000000004",
+      "media": [
+        {
+          "alt": "画像",
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/MEDIA0005?format=png&name=large",
+        },
+        {
+          "alt": "画像",
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/MEDIA0006?format=png&name=large",
+        },
+      ],
+      "text": "consectetur adi🎮
+
+elit sed do eiusmod tempor incididunt u
+
+labore et dolore magna a
+
+⭐ ut enim ad mi
+🌟 veniam quis nostrud exercit",
+      "truncated": false,
+      "url": "https://x.com/user3/status/1000000000000000004",
+    },
+    "text": "ad minim veniam quis nostrud exercitation ullamco lorem ipsum dolor sitx😆",
+    "truncated": false,
+    "url": "https://x.com/user1/status/1000000000000000003",
+  },
+]
+`;
+
+exports[`thread.html: four consecutive posts by one author > matches the snapshot 1`] = `
+[
+  {
+    "author": {
+      "displayName": "User 1",
+      "handle": "user1",
+    },
+    "datetime": "2026-10-13T02:54:00.000Z",
+    "id": "1000000000000000001",
+    "isMain": true,
+    "media": [
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/1/img/VIDEO0001.jpg",
+      },
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2/img/VIDEO0002.jpg",
+      },
+      {
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/3/img/VIDEO0003.jpg",
+      },
+      {
+        "alt": "画像",
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/MEDIA0001?format=jpg&name=large",
+      },
+    ],
+    "quote": null,
+    "text": "lorem ipsum dolor sit amet consectet
+
+adipiscing elit sed do eiusmod tempor incididunt u
+
+labore et dolore magna aliqua ut enim ad minim veni
+
+quis n🔖",
+    "truncated": false,
+    "url": "https://x.com/user1/status/1000000000000000001",
+  },
+  {
+    "author": {
+      "displayName": "User 1",
+      "handle": "user1",
+    },
+    "datetime": "2026-10-13T06:09:42.000Z",
+    "id": "1000000000000000002",
+    "isMain": false,
+    "media": [],
+    "quote": {
+      "author": {
+        "displayName": "User 1",
+        "handle": "user1",
+      },
+      "datetime": "2026-10-08T05:24:05.000Z",
+      "id": "1000000000000000003",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/4/img/VIDEO0004.jpg",
+        },
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/5/img/VIDEO0005.jpg",
+        },
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/6/img/VIDEO0006.jpg",
+        },
+        {
+          "alt": "画像",
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/MEDIA0002?format=jpg&name=large",
+        },
+      ],
+      "text": "ullamco lorem ipsum dolor sit amet co
+
+adipiscing elit sed do eiusmod tempor incididunt ut
+
+labore et dolore magna aliqua ut enim ad minim ven
+
+quis n🔖",
+      "truncated": false,
+      "url": "https://x.com/user1/status/1000000000000000003",
+    },
+    "text": "exercit👇",
+    "truncated": false,
+    "url": "https://x.com/user1/status/1000000000000000002",
+  },
+  {
+    "author": {
+      "displayName": "User 1",
+      "handle": "user1",
+    },
+    "datetime": "2026-10-13T06:11:30.000Z",
+    "id": "1000000000000000004",
+    "isMain": false,
+    "media": [],
+    "quote": {
+      "author": {
+        "displayName": "User 1",
+        "handle": "user1",
+      },
+      "datetime": "2026-10-10T04:01:01.000Z",
+      "id": "1000000000000000005",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/7/img/VIDEO0007.jpg",
+        },
+        {
+          "alt": "画像",
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/MEDIA0003?format=jpg&name=large",
+        },
+      ],
+      "text": "ullamco lorem ipsum dolor sit am
+
+consectetur adipiscing elit sed do eiusmodx
+
+incididunt ut labore et dolore magna aliqua ut enim
+
+ad min🔖",
+      "truncated": false,
+      "url": "https://x.com/user1/status/1000000000000000005",
+    },
+    "text": "exercit👇",
+    "truncated": false,
+    "url": "https://x.com/user1/status/1000000000000000004",
+  },
+  {
+    "author": {
+      "displayName": "User 1",
+      "handle": "user1",
+    },
+    "datetime": "2026-10-13T06:13:05.000Z",
+    "id": "1000000000000000006",
+    "isMain": false,
+    "media": [],
+    "quote": {
+      "author": {
+        "displayName": "User 1",
+        "handle": "user1",
+      },
+      "datetime": "2026-10-11T02:42:00.000Z",
+      "id": "1000000000000000007",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/8/img/VIDEO0008.jpg",
+        },
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/9/img/VIDEO0009.jpg",
+        },
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/10/img/VIDEO0010.jpg",
+        },
+        {
+          "alt": "画像",
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/MEDIA0004?format=jpg&name=large",
+        },
+      ],
+      "text": "nostrud exercitation ullamco lorem ip
+
+dolor sit amet consectetur adipiscing elit sed do eiusmo
+
+tempor incididunt ut labore et dolore magna al
+
+ut eni🔖",
+      "truncated": false,
+      "url": "https://x.com/user1/status/1000000000000000007",
+    },
+    "text": "veniamx👇",
+    "truncated": false,
+    "url": "https://x.com/user1/status/1000000000000000006",
+  },
+]
+`;

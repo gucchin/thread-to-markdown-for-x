@@ -1,0 +1,18 @@
+node_modules/
+dist/
+*.zip
+# Raw (non-anonymized) DOM snapshots; only anonymized fixtures may be committed
+# (tests/fixtures.guard.test.ts fails if one lands in tests/fixtures/ by mistake)
+tests/fixtures/raw/
+
+# Local and personal files
+.env
+.env.*
+*.log
+coverage/
+.vscode/
+.idea/
+.claude/settings.local.json
+.DS_Store
+Thumbs.db
+desktop.ini

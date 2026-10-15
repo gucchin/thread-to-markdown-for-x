@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Thread to Markdown for X</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="settings">
+      <fieldset>
+        <legend>Posts to copy</legend>
+        <label><input type="radio" name="mode" value="author" /> Author’s thread</label>
+        <label><input type="radio" name="mode" value="all" /> All replies</label>
+      </fieldset>
+      <label class="check"
+        ><input type="checkbox" name="autoScroll" /> Auto-scroll to collect posts beyond the
+        screen</label
+      >
+    </div>
+    <button id="copy" type="button" disabled>Copy thread as Markdown</button>
+    <p id="status" role="status" aria-live="polite"></p>
+    <textarea id="manual" aria-label="Markdown" readonly hidden></textarea>
+    <p class="footer"><a id="options" href="options.html">Options</a></p>
+    <script src="popup.js"></script>
+  </body>
+</html>

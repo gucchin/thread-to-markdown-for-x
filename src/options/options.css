@@ -1,0 +1,60 @@
+:root {
+  --bg: #fff;
+  --fg: #0f1419;
+  --muted: #536471;
+  --border: #cfd9de;
+  --success: #00ba7c;
+  --error: #f4212e;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15202b;
+    --fg: #e7e9ea;
+    --muted: #8b98a5;
+    --border: #38444d;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  min-width: 360px;
+  background: var(--bg);
+  color: var(--fg);
+  font:
+    14px/1.5 system-ui,
+    sans-serif;
+}
+
+fieldset {
+  margin: 0 0 12px;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+legend {
+  padding: 0 4px;
+  font-weight: 600;
+}
+
+label {
+  display: block;
+  padding: 2px 0;
+}
+
+#status {
+  min-height: 1.5em;
+  margin: 0;
+  color: var(--muted);
+}
+
+#status[data-kind='success'] {
+  color: var(--success);
+}
+
+#status[data-kind='error'] {
+  color: var(--error);
+}

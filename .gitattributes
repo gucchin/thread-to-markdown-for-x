@@ -1,0 +1,2 @@
+# Keep LF everywhere: fixtures and snapshots compare text byte for byte.
+* text=auto eol=lf

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Source of the extension icon. scripts/icon.mjs rasterizes it at build time and supports
+       only <rect> (with rx) and <circle>, filled with #rrggbb, optionally grouped by <g fill>. -->
+  <rect width="128" height="128" rx="28" fill="#4338ca"/>
+  <g fill="#ffffff">
+    <!-- thread: three posts joined by a line -->
+    <rect x="36.5" y="34" width="7" height="60"/>
+    <circle cx="40" cy="34" r="12"/>
+    <circle cx="40" cy="64" r="12"/>
+    <circle cx="40" cy="94" r="12"/>
+    <!-- text lines -->
+    <rect x="62" y="28" width="44" height="12" rx="6"/>
+    <rect x="62" y="58" width="36" height="12" rx="6"/>
+    <rect x="62" y="88" width="44" height="12" rx="6"/>
+  </g>
+</svg>

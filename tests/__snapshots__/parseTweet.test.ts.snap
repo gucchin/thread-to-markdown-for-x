@@ -1,0 +1,283 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`parseTweet on the single_tweet fixture > matches the snapshot 1`] = `
+[
+  {
+    "author": {
+      "displayName": "User 1",
+      "handle": "user1",
+    },
+    "datetime": "2026-09-10T12:05:57.000Z",
+    "id": "1000000000000000001",
+    "isMain": true,
+    "media": [
+      {
+        "alt": "画像",
+        "type": "image",
+        "url": "https://pbs.twimg.com/media/MEDIA0001?format=jpg&name=large",
+      },
+    ],
+    "quote": null,
+    "text": "lorem ipsum dolor sit ametx
+
+adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad min
+
+veniam quis nostrud exercitation ullamco lorem ipsumx
+
+sit amet consectetur adi 👇
+
+https://example.com/link1/part1",
+    "truncated": false,
+    "url": "https://x.com/user1/status/1000000000000000001",
+  },
+  {
+    "author": {
+      "displayName": "User 3",
+      "handle": "user3",
+    },
+    "datetime": "2026-09-15T04:05:16.000Z",
+    "id": "1000000000000000002",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "elit sed do eiusmod tempor incididu",
+    "truncated": false,
+    "url": "https://x.com/user3/status/1000000000000000002",
+  },
+  {
+    "author": {
+      "displayName": "User 4",
+      "handle": "user4",
+    },
+    "datetime": "2026-09-10T13:11:50.000Z",
+    "id": "1000000000000000003",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamc",
+    "truncated": false,
+    "url": "https://x.com/user4/status/1000000000000000003",
+  },
+  {
+    "author": {
+      "displayName": "User 5",
+      "handle": "user5",
+    },
+    "datetime": "2026-10-08T08:03:31.000Z",
+    "id": "1000000000000000004",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "lorem ipsum dolor sit amet consec",
+    "truncated": false,
+    "url": "https://x.com/user5/status/1000000000000000004",
+  },
+  {
+    "author": {
+      "displayName": "User 6",
+      "handle": "user6",
+    },
+    "datetime": "2026-10-08T02:35:24.000Z",
+    "id": "1000000000000000005",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "adipiscing elit sed do ei😂🔥",
+    "truncated": false,
+    "url": "https://x.com/user6/status/1000000000000000005",
+  },
+  {
+    "author": {
+      "displayName": "User 7",
+      "handle": "user7",
+    },
+    "datetime": "2026-09-13T14:05:03.000Z",
+    "id": "1000000000000000006",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam q",
+    "truncated": false,
+    "url": "https://x.com/user7/status/1000000000000000006",
+  },
+  {
+    "author": {
+      "displayName": "User 8",
+      "handle": "user8",
+    },
+    "datetime": "2026-09-11T06:16:40.000Z",
+    "id": "1000000000000000007",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "nostrud exercitation ullamco lor",
+    "truncated": false,
+    "url": "https://x.com/user8/status/1000000000000000007",
+  },
+  {
+    "author": {
+      "displayName": "User 9",
+      "handle": "user9",
+    },
+    "datetime": "2026-09-12T02:28:01.000Z",
+    "id": "1000000000000000008",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "ipsum dolor sit amet consectetur adipiscing elit s",
+    "truncated": false,
+    "url": "https://x.com/user9/status/1000000000000000008",
+  },
+  {
+    "author": {
+      "displayName": "User 10",
+      "handle": "user10",
+    },
+    "datetime": "2026-10-05T04:28:17.000Z",
+    "id": "1000000000000000009",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "do eiusmod tempor incididunt ut labore e",
+    "truncated": false,
+    "url": "https://x.com/user10/status/1000000000000000009",
+  },
+  {
+    "author": {
+      "displayName": "User 11",
+      "handle": "user11",
+    },
+    "datetime": "2026-09-25T03:32:23.000Z",
+    "id": "1000000000000000010",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "dolore magna aliqua ut enim ad minim veniam quisx",
+    "truncated": false,
+    "url": "https://x.com/user11/status/1000000000000000010",
+  },
+  {
+    "author": {
+      "displayName": "User 12",
+      "handle": "user12",
+    },
+    "datetime": "2026-09-23T06:13:45.000Z",
+    "id": "1000000000000000011",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "exercitation ullamco lorem ipsum dolor sit am",
+    "truncated": false,
+    "url": "https://x.com/user12/status/1000000000000000011",
+  },
+  {
+    "author": {
+      "displayName": "User 13",
+      "handle": "user13",
+    },
+    "datetime": "2026-10-12T03:04:16.000Z",
+    "id": "1000000000000000012",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "consectetur adipiscing elit sed do e",
+    "truncated": false,
+    "url": "https://x.com/user13/status/1000000000000000012",
+  },
+  {
+    "author": {
+      "displayName": "User 14",
+      "handle": "user14",
+    },
+    "datetime": "2026-09-20T17:47:14.000Z",
+    "id": "1000000000000000013",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamcox",
+    "truncated": false,
+    "url": "https://x.com/user14/status/1000000000000000013",
+  },
+  {
+    "author": {
+      "displayName": "User 15",
+      "handle": "user15",
+    },
+    "datetime": "2026-10-12T12:45:20.000Z",
+    "id": "1000000000000000014",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolorex",
+    "truncated": false,
+    "url": "https://x.com/user15/status/1000000000000000014",
+  },
+  {
+    "author": {
+      "displayName": "User 16",
+      "handle": "user16",
+    },
+    "datetime": "2026-09-21T14:17:27.000Z",
+    "id": "1000000000000000015",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "aliqua ut enim ad minim veniam quis nostru",
+    "truncated": false,
+    "url": "https://x.com/user16/status/1000000000000000015",
+  },
+  {
+    "author": {
+      "displayName": "User 17",
+      "handle": "user17",
+    },
+    "datetime": "2026-10-02T21:47:11.000Z",
+    "id": "1000000000000000016",
+    "isMain": false,
+    "media": [],
+    "quote": null,
+    "text": "exercitation ullamco lorem ipsum dolor sit am",
+    "truncated": false,
+    "url": "https://x.com/user17/status/1000000000000000016",
+  },
+  {
+    "author": {
+      "displayName": "User 18",
+      "handle": "user18",
+    },
+    "datetime": "2026-09-10T13:33:15.000Z",
+    "id": "1000000000000000017",
+    "isMain": false,
+    "media": [],
+    "quote": {
+      "author": {
+        "displayName": "User 1",
+        "handle": "user1",
+      },
+      "datetime": "2026-09-10T12:05:57.000Z",
+      "id": "1000000000000000001",
+      "media": [
+        {
+          "alt": "画像",
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/MEDIA0001?format=jpg&name=large",
+        },
+      ],
+      "text": "do eiusmod tempor incididun
+
+ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco lorem
+
+ipsum dolor sit amet consectetur adipiscing elit sedx
+
+eiusmod tempor incididun 👇
+
+https://example.com/text1/part1",
+      "truncated": false,
+      "url": "https://x.com/user1/status/1000000000000000001",
+    },
+    "text": "consectetur adipiscing elit sed",
+    "truncated": false,
+    "url": "https://x.com/user18/status/1000000000000000017",
+  },
+]
+`;
