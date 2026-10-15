@@ -28,7 +28,7 @@
 - [x] `git init`・最初のコミット（ユーザーの確認を得てから。2026-10-16、ブランチ `main`。`.gitattributes` で改行を LF に固定）
 - [x] `LICENSE` を追加（MIT）
 - [ ] README：英語版（`README.md` を英語、日本語は `README.ja.md` など）、ストアへのリンク（公開後）、スクリーンショット
-- [ ] GitHub にリポジトリを作って push（ユーザー作業、または `gh` コマンドで）
+- [x] GitHub にリポジトリを作って push（2026-10-16、`gh repo create` で公開リポジトリ https://github.com/gucchin/thread-to-markdown-for-x を作成。ライセンスは GitHub 上でも MIT と認識されている）
 - [ ] GitHub Pages でプライバシーポリシー（023 の `PRIVACY.md`）を公開し、URL を控える
 - [ ] （任意）GitHub Actions で `npm test`・`npm run lint`・`npm run typecheck`・`npm run check:no-network` を実行する
 - [ ] （任意）リリースのタグ（`v1.0.0`）と、提出した zip を GitHub Releases に置く
