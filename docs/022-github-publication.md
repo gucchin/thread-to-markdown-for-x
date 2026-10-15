@@ -29,14 +29,14 @@
 - [x] `LICENSE` を追加（MIT）
 - [ ] README：英語版（`README.md` を英語、日本語は `README.ja.md` など）、ストアへのリンク（公開後）、スクリーンショット
 - [x] GitHub にリポジトリを作って push（2026-10-16、`gh repo create` で公開リポジトリ https://github.com/gucchin/thread-to-markdown-for-x を作成。ライセンスは GitHub 上でも MIT と認識されている）
-- [ ] GitHub Pages でプライバシーポリシー（023 の `PRIVACY.md`）を公開し、URL を控える
+- [x] GitHub Pages でプライバシーポリシー（023 の `PRIVACY.md`）を公開し、URL を控える（https://gucchin.github.io/thread-to-markdown-for-x/PRIVACY.html。`_config.yml` で README と `PRIVACY.md` 以外は公開しない）
 - [ ] （任意）GitHub Actions で `npm test`・`npm run lint`・`npm run typecheck`・`npm run check:no-network` を実行する
 - [ ] （任意）リリースのタグ（`v1.0.0`）と、提出した zip を GitHub Releases に置く
 
 ## 完了条件
 
 - [x] 公開リポジトリがあり、README からビルド・インストールの方法が分かる
-- [ ] プライバシーポリシーの公開 URL がある
+- [x] プライバシーポリシーの公開 URL がある
 - [x] 匿名化前のデータ・個人情報が含まれていないことを確認済み
 
 ## 作業メモ

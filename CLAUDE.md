@@ -40,6 +40,7 @@ PLAN.md §5 のディレクトリ構成（`thread-to-markdown-for-x/` 配下）�
 - 配布用 zip：`npm run package`（ビルド後、`scripts/package.mjs` が `dist/` を `thread-to-markdown-for-x-<version>.zip`（`package.json` の `name` と `version`）にまとめる。依存なし・`node:zlib` のみ）
 
 `tests/manifest.test.ts` が manifest の権限を固定している。権限を変えるときはこのテストも意図して更新する。
+ストアに貼る文章（`docs/store/`）とプライバシーポリシー（`PRIVACY.md`。GitHub Pages で公開、`_config.yml` で公開範囲を限定）は `tests/store.test.ts` が manifest と照合する。権限・通信・保存するもの・機能を変えたら、これらも更新する。
 esbuild の postinstall は npm の allowScripts で未承認のままだが、プラットフォーム別バイナリ（`@esbuild/win32-x64`）で動作するため承認は不要。
 
 ## アーキテクチャ
