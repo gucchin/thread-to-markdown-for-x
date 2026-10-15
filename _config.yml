@@ -1,0 +1,20 @@
+# GitHub Pages (Jekyll): publish only README.md (as the top page) and PRIVACY.md, whose URL is
+# the privacy policy of the Chrome Web Store listing (docs/store/privacy-practices.md).
+title: Thread to Markdown for X
+exclude:
+  - src/
+  - tests/
+  - scripts/
+  - docs/
+  - assets/
+  - node_modules/
+  - dist/
+  - CLAUDE.md
+  - PLAN.md
+  - README.ja.md
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - tsconfig.json
+  - vitest.config.ts
+  - eslint.config.js
